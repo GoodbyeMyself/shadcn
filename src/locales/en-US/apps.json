@@ -1,0 +1,67 @@
+{
+  "page": {
+    "title": "App Integrations",
+    "description": "Here's a list of your apps for the integration!"
+  },
+  "filters": {
+    "searchPlaceholder": "Filter apps...",
+    "all": "All Apps",
+    "connected": "Connected",
+    "notConnected": "Not Connected"
+  },
+  "sort": {
+    "ascending": "Ascending",
+    "descending": "Descending"
+  },
+  "actions": {
+    "connect": "Connect",
+    "connected": "Connected"
+  },
+  "items": {
+    "telegram": {
+      "description": "Connect with Telegram for real-time communication."
+    },
+    "notion": {
+      "description": "Effortlessly sync Notion pages for seamless collaboration."
+    },
+    "figma": {
+      "description": "View and collaborate on Figma designs in one place."
+    },
+    "trello": {
+      "description": "Sync Trello cards for streamlined project management."
+    },
+    "slack": {
+      "description": "Integrate Slack for efficient team communication."
+    },
+    "zoom": {
+      "description": "Host Zoom meetings directly from the dashboard."
+    },
+    "stripe": {
+      "description": "Easily manage Stripe transactions and payments."
+    },
+    "gmail": {
+      "description": "Access and manage Gmail messages effortlessly."
+    },
+    "medium": {
+      "description": "Explore and share Medium stories on your dashboard."
+    },
+    "skype": {
+      "description": "Connect with Skype contacts seamlessly."
+    },
+    "docker": {
+      "description": "Effortlessly manage Docker containers on your dashboard."
+    },
+    "github": {
+      "description": "Streamline code management with GitHub integration."
+    },
+    "gitlab": {
+      "description": "Efficiently manage code projects with GitLab integration."
+    },
+    "discord": {
+      "description": "Connect with Discord for seamless team communication."
+    },
+    "whatsapp": {
+      "description": "Easily integrate WhatsApp for direct messaging."
+    }
+  }
+}

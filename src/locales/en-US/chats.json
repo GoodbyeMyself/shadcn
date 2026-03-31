@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Inbox",
+    "search": "Search",
+    "searchPlaceholder": "Search chat...",
+    "you": "You",
+    "chatInput": "Chat Text Box",
+    "messagePlaceholder": "Type your messages...",
+    "send": "Send",
+    "emptyTitle": "Your messages",
+    "emptyDescription": "Send a message to start a chat.",
+    "sendMessage": "Send message"
+  },
+  "dialog": {
+    "title": "New message",
+    "to": "To:",
+    "searchPeople": "Search people...",
+    "noPeopleFound": "No people found.",
+    "chat": "Chat",
+    "submittedTitle": "You selected the following chat recipients:"
+  }
+}

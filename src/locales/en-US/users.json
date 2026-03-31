@@ -1,0 +1,177 @@
+{
+  "page": {
+    "title": "User List",
+    "description": "Manage your users and their roles here."
+  },
+  "actions": {
+    "inviteUser": "Invite User",
+    "addUser": "Add User",
+    "saveChanges": "Save changes",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "invite": "Invite"
+  },
+  "table": {
+    "searchPlaceholder": "Filter users...",
+    "filters": {
+      "status": "Status",
+      "role": "Role"
+    },
+    "reset": "Reset",
+    "view": "View",
+    "toggleColumns": "Toggle columns",
+    "rowsPerPage": "Rows per page",
+    "pageOf": "Page {{current}} of {{total}}",
+    "goToFirstPage": "Go to first page",
+    "goToPreviousPage": "Go to previous page",
+    "goToNextPage": "Go to next page",
+    "goToLastPage": "Go to last page",
+    "goToPage": "Go to page {{page}}",
+    "facetedNoResults": "No results found.",
+    "clearFilters": "Clear filters",
+    "selectedCount": "{{count}} selected",
+    "noResults": "No results.",
+    "selection": {
+      "selectAll": "Select all",
+      "selectRow": "Select row",
+      "clearSelection": "Clear selection",
+      "clearSelectionWithShortcut": "Clear selection (Escape)",
+      "toolbarLabel": "Bulk actions for {{count}} selected {{entity}}",
+      "announcement": "{{count}} {{entity}} selected. Bulk actions toolbar is available.",
+      "summary": "{{entity}} selected"
+    },
+    "sorting": {
+      "asc": "Asc",
+      "desc": "Desc",
+      "hide": "Hide"
+    },
+    "columns": {
+      "username": "Username",
+      "name": "Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "status": "Status",
+      "role": "Role"
+    },
+    "statuses": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "invited": "Invited",
+      "suspended": "Suspended"
+    },
+    "roles": {
+      "superadmin": "Superadmin",
+      "admin": "Admin",
+      "manager": "Manager",
+      "cashier": "Cashier"
+    },
+    "rowActions": {
+      "openMenu": "Open menu",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "bulkActions": {
+      "entityName_one": "user",
+      "entityName_other": "users",
+      "inviteSelectedUsers": "Invite selected users",
+      "activateSelectedUsers": "Activate selected users",
+      "deactivateSelectedUsers": "Deactivate selected users",
+      "deleteSelectedUsers": "Delete selected users",
+      "activating": "Activating users...",
+      "deactivating": "Deactivating users...",
+      "inviting": "Inviting users...",
+      "activated_one": "Activated 1 user",
+      "activated_other": "Activated {{count}} users",
+      "deactivated_one": "Deactivated 1 user",
+      "deactivated_other": "Deactivated {{count}} users",
+      "invited_one": "Invited 1 user",
+      "invited_other": "Invited {{count}} users",
+      "errorActivating": "Error activating users",
+      "errorDeactivating": "Error deactivating users",
+      "errorInviting": "Error inviting users",
+      "error": "Error"
+    }
+  },
+  "dialogs": {
+    "action": {
+      "editTitle": "Edit User",
+      "addTitle": "Add New User",
+      "editDescription": "Update the user here.",
+      "addDescription": "Create new user here.",
+      "saveHint": "Click save when you're done.",
+      "submittedTitle": "You submitted the following user data:",
+      "fields": {
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "john_doe",
+        "email": "Email",
+        "emailPlaceholder": "john.doe@gmail.com",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+123456789",
+        "role": "Role",
+        "rolePlaceholder": "Select a role",
+        "password": "Password",
+        "passwordPlaceholder": "e.g., S3cur3P@ssw0rd",
+        "confirmPassword": "Confirm Password"
+      },
+      "validation": {
+        "firstNameRequired": "First Name is required.",
+        "lastNameRequired": "Last Name is required.",
+        "usernameRequired": "Username is required.",
+        "phoneNumberRequired": "Phone number is required.",
+        "emailRequired": "Email is required.",
+        "roleRequired": "Role is required.",
+        "passwordRequired": "Password is required.",
+        "passwordMin": "Password must be at least 8 characters long.",
+        "passwordLowercase": "Password must contain at least one lowercase letter.",
+        "passwordNumber": "Password must contain at least one number.",
+        "passwordMismatch": "Passwords don't match."
+      }
+    },
+    "delete": {
+      "title": "Delete User",
+      "description": "Are you sure you want to delete {{username}}?",
+      "roleDescription": "This action will permanently remove the user with the role of {{role}} from the system. This cannot be undone.",
+      "usernameLabel": "Username:",
+      "usernamePlaceholder": "Enter username to confirm deletion.",
+      "warningTitle": "Warning!",
+      "warningDescription": "Please be careful, this operation cannot be rolled back.",
+      "submittedTitle": "The following user has been deleted:"
+    },
+    "invite": {
+      "title": "Invite User",
+      "description": "Invite new user to join your team by sending them an email invitation. Assign a role to define their access level.",
+      "submittedTitle": "You submitted the following invitation:",
+      "fields": {
+        "email": "Email",
+        "emailPlaceholder": "eg: john.doe@gmail.com",
+        "role": "Role",
+        "rolePlaceholder": "Select a role",
+        "description": "Description (optional)",
+        "descriptionPlaceholder": "Add a personal note to your invitation (optional)"
+      },
+      "validation": {
+        "emailRequired": "Please enter an email to invite.",
+        "roleRequired": "Role is required."
+      }
+    },
+    "multiDelete": {
+      "confirmWord": "DELETE",
+      "confirmMismatch": "Please type \"{{word}}\" to confirm.",
+      "loading": "Deleting users...",
+      "deleted_one": "Deleted 1 user",
+      "deleted_other": "Deleted {{count}} users",
+      "title_one": "Delete 1 user",
+      "title_other": "Delete {{count}} users",
+      "description": "Are you sure you want to delete the selected users?",
+      "undo": "This action cannot be undone.",
+      "confirmPrompt": "Confirm by typing \"{{word}}\":",
+      "confirmPlaceholder": "Type \"{{word}}\" to confirm.",
+      "warningTitle": "Warning!",
+      "warningDescription": "Please be careful, this operation cannot be rolled back."
+    }
+  }
+}

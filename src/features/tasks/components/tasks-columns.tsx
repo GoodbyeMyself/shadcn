@@ -1,0 +1,153 @@
+import { type ColumnDef } from '@tanstack/react-table'
+import { useTranslation } from 'react-i18next'
+import { Badge } from '@/components/ui/badge'
+import { Checkbox } from '@/components/ui/checkbox'
+import { DataTableColumnHeader } from '@/components/data-table'
+import { labels, priorities, statuses } from '../data/data'
+import { type Task } from '../data/schema'
+import { DataTableRowActions } from './data-table-row-actions'
+
+export function useTasksColumns(): ColumnDef<Task>[] {
+  const { t } = useTranslation('tasks')
+  const sortingLabels = {
+    asc: t('table.sorting.asc'),
+    desc: t('table.sorting.desc'),
+    hide: t('table.sorting.hide'),
+  }
+
+  return [
+    {
+      id: 'select',
+      header: ({ table }) => (
+        <Checkbox
+          checked={
+            table.getIsAllPageRowsSelected() ||
+            (table.getIsSomePageRowsSelected() && 'indeterminate')
+          }
+          onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
+          aria-label={t('table.selection.selectAll')}
+          className='translate-y-[2px]'
+        />
+      ),
+      cell: ({ row }) => (
+        <Checkbox
+          checked={row.getIsSelected()}
+          onCheckedChange={(value) => row.toggleSelected(!!value)}
+          aria-label={t('table.selection.selectRow')}
+          className='translate-y-[2px]'
+        />
+      ),
+      enableSorting: false,
+      enableHiding: false,
+    },
+    {
+      accessorKey: 'id',
+      header: ({ column }) => (
+        <DataTableColumnHeader
+          column={column}
+          title={t('table.columns.task')}
+          labels={sortingLabels}
+        />
+      ),
+      cell: ({ row }) => <div className='w-[80px]'>{row.getValue('id')}</div>,
+      enableSorting: false,
+      enableHiding: false,
+    },
+    {
+      accessorKey: 'title',
+      header: ({ column }) => (
+        <DataTableColumnHeader
+          column={column}
+          title={t('table.columns.title')}
+          labels={sortingLabels}
+        />
+      ),
+      meta: {
+        className: 'ps-1 max-w-0 w-2/3',
+        tdClassName: 'ps-4',
+      },
+      cell: ({ row }) => {
+        const label = labels.find((label) => label.value === row.original.label)
+
+        return (
+          <div className='flex space-x-2'>
+            {label && (
+              <Badge variant='outline'>{t(label.labelKey as never)}</Badge>
+            )}
+            <span className='truncate font-medium'>
+              {row.getValue('title')}
+            </span>
+          </div>
+        )
+      },
+    },
+    {
+      accessorKey: 'status',
+      header: ({ column }) => (
+        <DataTableColumnHeader
+          column={column}
+          title={t('table.columns.status')}
+          labels={sortingLabels}
+        />
+      ),
+      meta: { className: 'ps-1', tdClassName: 'ps-4' },
+      cell: ({ row }) => {
+        const status = statuses.find(
+          (status) => status.value === row.getValue('status')
+        )
+
+        if (!status) {
+          return null
+        }
+
+        return (
+          <div className='flex w-[100px] items-center gap-2'>
+            {status.icon && (
+              <status.icon className='size-4 text-muted-foreground' />
+            )}
+            <span>{t(status.labelKey as never)}</span>
+          </div>
+        )
+      },
+      filterFn: (row, id, value) => {
+        return value.includes(row.getValue(id))
+      },
+    },
+    {
+      accessorKey: 'priority',
+      header: ({ column }) => (
+        <DataTableColumnHeader
+          column={column}
+          title={t('table.columns.priority')}
+          labels={sortingLabels}
+        />
+      ),
+      meta: { className: 'ps-1', tdClassName: 'ps-3' },
+      cell: ({ row }) => {
+        const priority = priorities.find(
+          (priority) => priority.value === row.getValue('priority')
+        )
+
+        if (!priority) {
+          return null
+        }
+
+        return (
+          <div className='flex items-center gap-2'>
+            {priority.icon && (
+              <priority.icon className='size-4 text-muted-foreground' />
+            )}
+            <span>{t(priority.labelKey as never)}</span>
+          </div>
+        )
+      },
+      filterFn: (row, id, value) => {
+        return value.includes(row.getValue(id))
+      },
+    },
+    {
+      id: 'actions',
+      cell: ({ row }) => <DataTableRowActions row={row} />,
+    },
+  ]
+}

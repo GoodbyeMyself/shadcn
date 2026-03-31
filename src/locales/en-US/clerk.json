@@ -1,0 +1,54 @@
+{
+  "missingKey": {
+    "alertTitle": "No Publishable Key Found!",
+    "alertDescription": "You need to generate a publishable key from Clerk and put it inside the .env file.",
+    "title": "Set your Clerk API key",
+    "steps": {
+      "openDashboardPrefix": "In the",
+      "openDashboardLink": "Clerk",
+      "openDashboardSuffix": "Dashboard, navigate to the API keys page.",
+      "copyKey": "In the Quick Copy section, copy your Clerk Publishable Key.",
+      "renameEnvPrefix": "Rename",
+      "renameEnvMiddle": "to",
+      "pasteKeyPrefix": "Paste your key into your",
+      "pasteKeySuffix": "file."
+    },
+    "resultLabel": "The final result should resemble the following:",
+    "optionalTitle": "Clerk Integration is Optional",
+    "optionalDescriptionPrefix": "The Clerk integration lives entirely inside",
+    "optionalDescriptionMiddle": "If you plan to use Clerk as your auth service, you might want to place",
+    "optionalDescriptionSuffix": "at the root route.",
+    "optionalRemovalPrefix": "However, if you don't plan to use Clerk, you can safely remove this directory and related dependency",
+    "optionalRemovalSuffix": ".",
+    "optionalNote": "This setup is modular by design and won't affect the rest of the application."
+  },
+  "authLayout": {
+    "quote": "A modular authentication example that stays isolated from the rest of your application.",
+    "author": "Clerk Demo",
+    "learnMore": {
+      "welcome": "Welcome to the example Clerk auth page.",
+      "backTo": "Back to",
+      "dashboard": "Dashboard",
+      "question": "?"
+    }
+  },
+  "userManagement": {
+    "title": "User List",
+    "description": "Manage your users and their roles here.",
+    "learnMoreSameAsPrefix": "This is the same as",
+    "learnMoreManageAccount": "You can sign out or manage/delete your account via the User Profile menu in the top-right corner of the page."
+  },
+  "unauthorized": {
+    "title": "Unauthorized Access",
+    "descriptionPrefix": "You must be authenticated via Clerk",
+    "descriptionSuffix": "to access this resource.",
+    "learnMoreSameAsPrefix": "This is the same as",
+    "learnMoreSignIn": "You must first sign in using Clerk to access this route.",
+    "learnMoreAfterSignIn": "After signing in, you'll be able to sign out or delete your account via the User Profile dropdown on this page.",
+    "goBack": "Go Back",
+    "signIn": "Sign in",
+    "redirectingWithCountdown": "Redirecting to Sign In page in {{countdown}}s",
+    "redirecting": "Redirecting...",
+    "cancelRedirect": "Cancel Redirect"
+  }
+}

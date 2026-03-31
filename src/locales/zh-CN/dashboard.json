@@ -1,0 +1,87 @@
+{
+  "page": {
+    "title": "仪表盘",
+    "download": "下载"
+  },
+  "tabs": {
+    "overview": "概览",
+    "analytics": "分析",
+    "reports": "报表",
+    "notifications": "通知"
+  },
+  "topNav": {
+    "overview": "概览",
+    "customers": "客户",
+    "products": "产品",
+    "settings": "设置"
+  },
+  "cards": {
+    "totalRevenue": {
+      "title": "总收入",
+      "change": "较上月增长 20.1%"
+    },
+    "subscriptions": {
+      "title": "订阅数",
+      "change": "较上月增长 180.1%"
+    },
+    "sales": {
+      "title": "销售量",
+      "change": "较上月增长 19%"
+    },
+    "activeNow": {
+      "title": "当前活跃",
+      "change": "较上一小时增加 201"
+    }
+  },
+  "sections": {
+    "overview": "概览",
+    "recentSales": {
+      "title": "最近销售",
+      "description": "你本月已完成 265 笔销售。",
+      "avatarAlt": "头像"
+    },
+    "trafficOverview": {
+      "title": "流量概览",
+      "description": "每周点击量与独立访客"
+    },
+    "referrers": {
+      "title": "来源渠道",
+      "description": "带来流量的主要来源"
+    },
+    "devices": {
+      "title": "设备分布",
+      "description": "用户访问应用的设备类型"
+    }
+  },
+  "analytics": {
+    "cards": {
+      "totalClicks": {
+        "title": "总点击量",
+        "change": "较上周增长 12.4%"
+      },
+      "uniqueVisitors": {
+        "title": "独立访客",
+        "change": "较上周增长 5.8%"
+      },
+      "bounceRate": {
+        "title": "跳出率",
+        "change": "较上周下降 3.2%"
+      },
+      "averageSession": {
+        "title": "平均会话时长",
+        "change": "较上周增加 18 秒"
+      }
+    },
+    "referrers": {
+      "direct": "直接访问",
+      "productHunt": "Product Hunt",
+      "twitter": "Twitter",
+      "blog": "博客"
+    },
+    "devices": {
+      "desktop": "桌面端",
+      "mobile": "移动端",
+      "tablet": "平板"
+    }
+  }
+}

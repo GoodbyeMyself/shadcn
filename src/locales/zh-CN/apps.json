@@ -1,0 +1,67 @@
+{
+  "page": {
+    "title": "应用集成",
+    "description": "这里是可用于集成的应用列表。"
+  },
+  "filters": {
+    "searchPlaceholder": "筛选应用...",
+    "all": "全部应用",
+    "connected": "已连接",
+    "notConnected": "未连接"
+  },
+  "sort": {
+    "ascending": "升序",
+    "descending": "降序"
+  },
+  "actions": {
+    "connect": "连接",
+    "connected": "已连接"
+  },
+  "items": {
+    "telegram": {
+      "description": "连接 Telegram，获得实时沟通能力。"
+    },
+    "notion": {
+      "description": "轻松同步 Notion 页面，实现顺畅协作。"
+    },
+    "figma": {
+      "description": "在一个地方查看并协作处理 Figma 设计。"
+    },
+    "trello": {
+      "description": "同步 Trello 卡片，提升项目管理效率。"
+    },
+    "slack": {
+      "description": "集成 Slack，提升团队沟通效率。"
+    },
+    "zoom": {
+      "description": "直接从控制台发起 Zoom 会议。"
+    },
+    "stripe": {
+      "description": "轻松管理 Stripe 交易与支付。"
+    },
+    "gmail": {
+      "description": "便捷访问并管理 Gmail 邮件。"
+    },
+    "medium": {
+      "description": "在控制台中浏览并分享 Medium 文章。"
+    },
+    "skype": {
+      "description": "无缝连接 Skype 联系人。"
+    },
+    "docker": {
+      "description": "在控制台中高效管理 Docker 容器。"
+    },
+    "github": {
+      "description": "通过 GitHub 集成简化代码管理。"
+    },
+    "gitlab": {
+      "description": "通过 GitLab 集成高效管理代码项目。"
+    },
+    "discord": {
+      "description": "连接 Discord，获得顺畅的团队沟通体验。"
+    },
+    "whatsapp": {
+      "description": "轻松集成 WhatsApp，实现直接消息沟通。"
+    }
+  }
+}

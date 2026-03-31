@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "收件箱",
+    "search": "搜索",
+    "searchPlaceholder": "搜索聊天...",
+    "you": "你",
+    "chatInput": "聊天输入框",
+    "messagePlaceholder": "输入消息...",
+    "send": "发送",
+    "emptyTitle": "你的消息",
+    "emptyDescription": "发送一条消息以开始聊天。",
+    "sendMessage": "发送消息"
+  },
+  "dialog": {
+    "title": "新消息",
+    "to": "收件人：",
+    "searchPeople": "搜索联系人...",
+    "noPeopleFound": "未找到联系人。",
+    "chat": "开始聊天",
+    "submittedTitle": "你选择了以下聊天对象："
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "page": {
+    "title": "用户列表",
+    "description": "在这里管理用户及其角色。"
+  },
+  "actions": {
+    "inviteUser": "邀请用户",
+    "addUser": "新增用户",
+    "saveChanges": "保存更改",
+    "cancel": "取消",
+    "delete": "删除",
+    "invite": "邀请"
+  },
+  "table": {
+    "searchPlaceholder": "筛选用户...",
+    "filters": {
+      "status": "状态",
+      "role": "角色"
+    },
+    "reset": "重置",
+    "view": "视图",
+    "toggleColumns": "切换列",
+    "rowsPerPage": "每页行数",
+    "pageOf": "第 {{current}} / {{total}} 页",
+    "goToFirstPage": "前往第一页",
+    "goToPreviousPage": "前往上一页",
+    "goToNextPage": "前往下一页",
+    "goToLastPage": "前往最后一页",
+    "goToPage": "前往第 {{page}} 页",
+    "facetedNoResults": "未找到结果。",
+    "clearFilters": "清除筛选",
+    "selectedCount": "已选择 {{count}} 项",
+    "noResults": "暂无结果。",
+    "selection": {
+      "selectAll": "全选",
+      "selectRow": "选择当前行",
+      "clearSelection": "清除选择",
+      "clearSelectionWithShortcut": "清除选择（Esc）",
+      "toolbarLabel": "已选择 {{count}} 个{{entity}}的批量操作",
+      "announcement": "已选择 {{count}} 个{{entity}}，可使用批量操作工具栏。",
+      "summary": "{{entity}}已选中"
+    },
+    "sorting": {
+      "asc": "升序",
+      "desc": "降序",
+      "hide": "隐藏"
+    },
+    "columns": {
+      "username": "用户名",
+      "name": "姓名",
+      "email": "邮箱",
+      "phoneNumber": "手机号",
+      "status": "状态",
+      "role": "角色"
+    },
+    "statuses": {
+      "active": "启用",
+      "inactive": "停用",
+      "invited": "已邀请",
+      "suspended": "已停用"
+    },
+    "roles": {
+      "superadmin": "超级管理员",
+      "admin": "管理员",
+      "manager": "经理",
+      "cashier": "收银员"
+    },
+    "rowActions": {
+      "openMenu": "打开菜单",
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "bulkActions": {
+      "entityName_one": "用户",
+      "entityName_other": "用户",
+      "inviteSelectedUsers": "邀请已选用户",
+      "activateSelectedUsers": "启用已选用户",
+      "deactivateSelectedUsers": "停用已选用户",
+      "deleteSelectedUsers": "删除已选用户",
+      "activating": "正在启用用户...",
+      "deactivating": "正在停用用户...",
+      "inviting": "正在邀请用户...",
+      "activated_one": "已启用 1 个用户",
+      "activated_other": "已启用 {{count}} 个用户",
+      "deactivated_one": "已停用 1 个用户",
+      "deactivated_other": "已停用 {{count}} 个用户",
+      "invited_one": "已邀请 1 个用户",
+      "invited_other": "已邀请 {{count}} 个用户",
+      "errorActivating": "启用用户失败",
+      "errorDeactivating": "停用用户失败",
+      "errorInviting": "邀请用户失败",
+      "error": "出错了"
+    }
+  },
+  "dialogs": {
+    "action": {
+      "editTitle": "编辑用户",
+      "addTitle": "新增用户",
+      "editDescription": "在这里更新用户信息。",
+      "addDescription": "在这里创建新用户。",
+      "saveHint": "完成后点击保存。",
+      "submittedTitle": "你提交了以下用户数据：",
+      "fields": {
+        "firstName": "名字",
+        "firstNamePlaceholder": "张",
+        "lastName": "姓氏",
+        "lastNamePlaceholder": "三",
+        "username": "用户名",
+        "usernamePlaceholder": "zhangsan",
+        "email": "邮箱",
+        "emailPlaceholder": "zhangsan@gmail.com",
+        "phoneNumber": "手机号",
+        "phoneNumberPlaceholder": "+8613800000000",
+        "role": "角色",
+        "rolePlaceholder": "请选择角色",
+        "password": "密码",
+        "passwordPlaceholder": "例如：S3cur3P@ssw0rd",
+        "confirmPassword": "确认密码"
+      },
+      "validation": {
+        "firstNameRequired": "名字不能为空。",
+        "lastNameRequired": "姓氏不能为空。",
+        "usernameRequired": "用户名不能为空。",
+        "phoneNumberRequired": "手机号不能为空。",
+        "emailRequired": "邮箱不能为空。",
+        "roleRequired": "角色不能为空。",
+        "passwordRequired": "密码不能为空。",
+        "passwordMin": "密码长度至少为 8 位。",
+        "passwordLowercase": "密码至少包含一个小写字母。",
+        "passwordNumber": "密码至少包含一个数字。",
+        "passwordMismatch": "两次输入的密码不一致。"
+      }
+    },
+    "delete": {
+      "title": "删除用户",
+      "description": "确定要删除 {{username}} 吗？",
+      "roleDescription": "此操作会将角色为 {{role}} 的用户永久从系统中移除，且无法撤销。",
+      "usernameLabel": "用户名：",
+      "usernamePlaceholder": "输入用户名以确认删除。",
+      "warningTitle": "警告",
+      "warningDescription": "请谨慎操作，此操作无法回滚。",
+      "submittedTitle": "已删除以下用户："
+    },
+    "invite": {
+      "title": "邀请用户",
+      "description": "通过邮件邀请新用户加入团队，并为其分配角色以定义访问权限。",
+      "submittedTitle": "你提交了以下邀请信息：",
+      "fields": {
+        "email": "邮箱",
+        "emailPlaceholder": "例如：zhangsan@gmail.com",
+        "role": "角色",
+        "rolePlaceholder": "请选择角色",
+        "description": "说明（可选）",
+        "descriptionPlaceholder": "为这次邀请补充一段说明（可选）"
+      },
+      "validation": {
+        "emailRequired": "请输入要邀请的邮箱。",
+        "roleRequired": "角色不能为空。"
+      }
+    },
+    "multiDelete": {
+      "confirmWord": "删除",
+      "confirmMismatch": "请输入“{{word}}”以确认。",
+      "loading": "正在删除用户...",
+      "deleted_one": "已删除 1 个用户",
+      "deleted_other": "已删除 {{count}} 个用户",
+      "title_one": "删除 1 个用户",
+      "title_other": "删除 {{count}} 个用户",
+      "description": "确定要删除已选择的用户吗？",
+      "undo": "此操作无法撤销。",
+      "confirmPrompt": "请输入“{{word}}”进行确认：",
+      "confirmPlaceholder": "输入“{{word}}”以确认",
+      "warningTitle": "警告",
+      "warningDescription": "请谨慎操作，此操作无法回滚。"
+    }
+  }
+}

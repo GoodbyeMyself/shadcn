@@ -1,0 +1,27 @@
+{
+  "common": {
+    "goBack": "返回上一页",
+    "backToHome": "返回首页",
+    "learnMore": "了解更多"
+  },
+  "unauthorized": {
+    "title": "未授权访问",
+    "description": "请使用正确的凭据登录后再访问该资源。"
+  },
+  "forbidden": {
+    "title": "禁止访问",
+    "description": "你当前没有查看该资源所需的权限。"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "你访问的页面不存在，或者已经被移除。"
+  },
+  "general": {
+    "title": "糟糕，出现了一些问题 :')",
+    "description": "给你带来不便，我们深感抱歉。请稍后再试。"
+  },
+  "maintenance": {
+    "title": "网站正在维护中",
+    "description": "站点当前暂时不可用，我们会尽快恢复。"
+  }
+}

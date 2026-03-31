@@ -1,0 +1,87 @@
+{
+  "page": {
+    "title": "Dashboard",
+    "download": "Download"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "analytics": "Analytics",
+    "reports": "Reports",
+    "notifications": "Notifications"
+  },
+  "topNav": {
+    "overview": "Overview",
+    "customers": "Customers",
+    "products": "Products",
+    "settings": "Settings"
+  },
+  "cards": {
+    "totalRevenue": {
+      "title": "Total Revenue",
+      "change": "+20.1% from last month"
+    },
+    "subscriptions": {
+      "title": "Subscriptions",
+      "change": "+180.1% from last month"
+    },
+    "sales": {
+      "title": "Sales",
+      "change": "+19% from last month"
+    },
+    "activeNow": {
+      "title": "Active Now",
+      "change": "+201 since last hour"
+    }
+  },
+  "sections": {
+    "overview": "Overview",
+    "recentSales": {
+      "title": "Recent Sales",
+      "description": "You made 265 sales this month.",
+      "avatarAlt": "Avatar"
+    },
+    "trafficOverview": {
+      "title": "Traffic Overview",
+      "description": "Weekly clicks and unique visitors"
+    },
+    "referrers": {
+      "title": "Referrers",
+      "description": "Top sources driving traffic"
+    },
+    "devices": {
+      "title": "Devices",
+      "description": "How users access your app"
+    }
+  },
+  "analytics": {
+    "cards": {
+      "totalClicks": {
+        "title": "Total Clicks",
+        "change": "+12.4% vs last week"
+      },
+      "uniqueVisitors": {
+        "title": "Unique Visitors",
+        "change": "+5.8% vs last week"
+      },
+      "bounceRate": {
+        "title": "Bounce Rate",
+        "change": "-3.2% vs last week"
+      },
+      "averageSession": {
+        "title": "Avg. Session",
+        "change": "+18s vs last week"
+      }
+    },
+    "referrers": {
+      "direct": "Direct",
+      "productHunt": "Product Hunt",
+      "twitter": "Twitter",
+      "blog": "Blog"
+    },
+    "devices": {
+      "desktop": "Desktop",
+      "mobile": "Mobile",
+      "tablet": "Tablet"
+    }
+  }
+}

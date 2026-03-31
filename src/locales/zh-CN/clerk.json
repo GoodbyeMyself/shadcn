@@ -1,0 +1,54 @@
+{
+  "missingKey": {
+    "alertTitle": "未找到 Publishable Key！",
+    "alertDescription": "你需要先在 Clerk 中生成 Publishable Key，并将其写入 .env 文件。",
+    "title": "配置 Clerk API Key",
+    "steps": {
+      "openDashboardPrefix": "在",
+      "openDashboardLink": "Clerk",
+      "openDashboardSuffix": "控制台中，进入 API keys 页面。",
+      "copyKey": "在 Quick Copy 区域复制你的 Clerk Publishable Key。",
+      "renameEnvPrefix": "将",
+      "renameEnvMiddle": "重命名为",
+      "pasteKeyPrefix": "把你的 Key 粘贴到",
+      "pasteKeySuffix": "文件中。"
+    },
+    "resultLabel": "最终结果应类似如下：",
+    "optionalTitle": "Clerk 集成是可选的",
+    "optionalDescriptionPrefix": "Clerk 集成的全部代码都位于",
+    "optionalDescriptionMiddle": "如果你计划使用 Clerk 作为认证服务，可以考虑把",
+    "optionalDescriptionSuffix": "放在根路由。",
+    "optionalRemovalPrefix": "不过，如果你不打算使用 Clerk，可以安全删除这个目录以及相关依赖",
+    "optionalRemovalSuffix": "。",
+    "optionalNote": "这套配置是模块化设计，不会影响应用的其他部分。"
+  },
+  "authLayout": {
+    "quote": "这是一个与主应用隔离的模块化认证示例页面。",
+    "author": "Clerk 示例",
+    "learnMore": {
+      "welcome": "欢迎来到 Clerk 认证示例页面。",
+      "backTo": "返回",
+      "dashboard": "仪表盘",
+      "question": "？"
+    }
+  },
+  "userManagement": {
+    "title": "用户列表",
+    "description": "在这里管理用户及其角色。",
+    "learnMoreSameAsPrefix": "这个页面与",
+    "learnMoreManageAccount": "你可以通过页面右上角的用户资料菜单退出登录，或管理 / 删除你的账户。"
+  },
+  "unauthorized": {
+    "title": "未授权访问",
+    "descriptionPrefix": "你需要先通过 Clerk 完成身份验证，",
+    "descriptionSuffix": "才能访问当前资源。",
+    "learnMoreSameAsPrefix": "这个页面与",
+    "learnMoreSignIn": "你必须先使用 Clerk 登录后，才能访问这条路由。",
+    "learnMoreAfterSignIn": "登录后，你可以通过本页的用户资料下拉菜单退出登录或删除账户。",
+    "goBack": "返回上一页",
+    "signIn": "登录",
+    "redirectingWithCountdown": "{{countdown}} 秒后将跳转到登录页",
+    "redirecting": "正在跳转...",
+    "cancelRedirect": "取消跳转"
+  }
+}

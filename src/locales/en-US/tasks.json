@@ -1,0 +1,156 @@
+{
+  "page": {
+    "title": "Tasks",
+    "description": "Here's a list of your tasks for this month!"
+  },
+  "actions": {
+    "import": "Import",
+    "create": "Create",
+    "close": "Close",
+    "saveChanges": "Save changes",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "table": {
+    "searchPlaceholder": "Filter by title or ID...",
+    "filters": {
+      "status": "Status",
+      "priority": "Priority"
+    },
+    "noResults": "No results.",
+    "reset": "Reset",
+    "view": "View",
+    "toggleColumns": "Toggle columns",
+    "rowsPerPage": "Rows per page",
+    "pageOf": "Page {{current}} of {{total}}",
+    "goToFirstPage": "Go to first page",
+    "goToPreviousPage": "Go to previous page",
+    "goToNextPage": "Go to next page",
+    "goToLastPage": "Go to last page",
+    "goToPage": "Go to page {{page}}",
+    "facetedNoResults": "No results found.",
+    "clearFilters": "Clear filters",
+    "selectedCount": "{{count}} selected",
+    "selection": {
+      "selectAll": "Select all",
+      "selectRow": "Select row",
+      "clearSelection": "Clear selection",
+      "clearSelectionWithShortcut": "Clear selection (Escape)",
+      "toolbarLabel": "Bulk actions for {{count}} selected {{entity}}",
+      "announcement": "{{count}} {{entity}} selected. Bulk actions toolbar is available.",
+      "summary": "{{entity}} selected"
+    },
+    "sorting": {
+      "asc": "Asc",
+      "desc": "Desc",
+      "hide": "Hide"
+    },
+    "columns": {
+      "task": "Task",
+      "title": "Title",
+      "status": "Status",
+      "priority": "Priority"
+    }
+  },
+  "options": {
+    "labels": {
+      "bug": "Bug",
+      "feature": "Feature",
+      "documentation": "Documentation"
+    },
+    "statuses": {
+      "backlog": "Backlog",
+      "todo": "Todo",
+      "inProgress": "In Progress",
+      "done": "Done",
+      "canceled": "Canceled"
+    },
+    "priorities": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    }
+  },
+  "rowActions": {
+    "openMenu": "Open menu",
+    "edit": "Edit",
+    "makeCopy": "Make a copy",
+    "favorite": "Favorite",
+    "labels": "Labels",
+    "delete": "Delete"
+  },
+  "bulkActions": {
+    "entityName_one": "task",
+    "entityName_other": "tasks",
+    "updateStatus": "Update status",
+    "updatePriority": "Update priority",
+    "exportTasks": "Export tasks",
+    "deleteSelectedTasks": "Delete selected tasks",
+    "loadingStatus": "Updating status...",
+    "loadingPriority": "Updating priority...",
+    "loadingExport": "Exporting tasks...",
+    "statusUpdated_one": "Updated 1 task to \"{{status}}\".",
+    "statusUpdated_other": "Updated {{count}} tasks to \"{{status}}\".",
+    "priorityUpdated_one": "Updated 1 task to \"{{priority}}\".",
+    "priorityUpdated_other": "Updated {{count}} tasks to \"{{priority}}\".",
+    "exportSuccess_one": "Exported 1 task to CSV.",
+    "exportSuccess_other": "Exported {{count}} tasks to CSV.",
+    "error": "Error"
+  },
+  "dialogs": {
+    "deleteTask": {
+      "title": "Delete this task: {{id}}?",
+      "description": "You are about to delete a task with the ID {{id}}.",
+      "undo": "This action cannot be undone.",
+      "submittedTitle": "The following task has been deleted:"
+    },
+    "import": {
+      "title": "Import Tasks",
+      "description": "Import tasks quickly from a CSV file.",
+      "file": "File",
+      "submittedTitle": "You have imported the following file:",
+      "validation": {
+        "fileRequired": "Please upload a file.",
+        "fileFormat": "Please upload a CSV file."
+      }
+    },
+    "mutate": {
+      "createTitle": "Create Task",
+      "updateTitle": "Update Task",
+      "createDescription": "Add a new task by providing necessary info.",
+      "updateDescription": "Update the task by providing necessary info.",
+      "saveHint": "Click save when you're done.",
+      "submittedTitle": "You submitted the following task data:",
+      "fields": {
+        "title": "Title",
+        "titlePlaceholder": "Enter a title",
+        "status": "Status",
+        "statusPlaceholder": "Select status",
+        "label": "Label",
+        "priority": "Priority"
+      },
+      "validation": {
+        "titleRequired": "Title is required.",
+        "statusRequired": "Please select a status.",
+        "labelRequired": "Please select a label.",
+        "priorityRequired": "Please choose a priority."
+      }
+    },
+    "multiDelete": {
+      "confirmWord": "DELETE",
+      "confirmMismatch": "Please type \"{{word}}\" to confirm.",
+      "loading": "Deleting tasks...",
+      "deleted_one": "Deleted 1 task",
+      "deleted_other": "Deleted {{count}} tasks",
+      "title_one": "Delete 1 task",
+      "title_other": "Delete {{count}} tasks",
+      "description": "Are you sure you want to delete the selected tasks?",
+      "undo": "This action cannot be undone.",
+      "confirmPrompt": "Confirm by typing \"{{word}}\":",
+      "confirmPlaceholder": "Type \"{{word}}\" to confirm.",
+      "warningTitle": "Warning!",
+      "warningDescription": "Please be careful, this operation cannot be rolled back."
+    }
+  }
+}

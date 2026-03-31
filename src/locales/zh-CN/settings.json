@@ -1,0 +1,145 @@
+{
+  "overview": {
+    "title": "设置",
+    "description": "管理你的账户设置并配置邮件偏好。"
+  },
+  "nav": {
+    "selectPlaceholder": "选择分组",
+    "profile": "个人资料",
+    "account": "账户",
+    "appearance": "外观",
+    "notifications": "通知",
+    "display": "显示"
+  },
+  "sections": {
+    "profile": {
+      "title": "个人资料",
+      "description": "这里决定了其他人如何在站点中看到你。"
+    },
+    "account": {
+      "title": "账户",
+      "description": "更新你的账户设置，并设置首选语言和时区。"
+    },
+    "appearance": {
+      "title": "外观",
+      "description": "自定义应用外观，并在白天和夜间主题之间自动切换。"
+    },
+    "notifications": {
+      "title": "通知",
+      "description": "配置你接收通知的方式。"
+    },
+    "display": {
+      "title": "显示",
+      "description": "通过开启或关闭项目来控制应用中显示的内容。"
+    }
+  },
+  "actions": {
+    "updateProfile": "更新个人资料",
+    "updateAccount": "更新账户",
+    "updatePreferences": "更新偏好设置",
+    "updateNotifications": "更新通知设置",
+    "updateDisplay": "更新显示设置",
+    "addUrl": "新增链接"
+  },
+  "profileForm": {
+    "username": "用户名",
+    "usernamePlaceholder": "shadcn",
+    "usernameDescription": "这是你的公开显示名称。它可以是真实姓名，也可以是昵称。每 30 天只能修改一次。",
+    "email": "邮箱",
+    "emailPlaceholder": "选择一个已验证并用于展示的邮箱",
+    "emailDescriptionPrefix": "你可以在",
+    "emailDescriptionLink": "邮箱设置",
+    "emailDescriptionSuffix": "中管理已验证的邮箱地址。",
+    "bio": "简介",
+    "bioPlaceholder": "简单介绍一下你自己",
+    "bioDescriptionPrefix": "你可以通过",
+    "bioDescriptionMention": "@提及",
+    "bioDescriptionSuffix": "其他用户和组织并链接到他们。",
+    "urls": "链接",
+    "urlsDescription": "添加你的网站、博客或社交媒体主页链接。",
+    "validation": {
+      "usernameRequired": "请输入用户名。",
+      "usernameMin": "用户名至少需要 2 个字符。",
+      "usernameMax": "用户名不能超过 30 个字符。",
+      "emailRequired": "请选择一个用于展示的邮箱。",
+      "bioMin": "简介至少需要 4 个字符。",
+      "bioMax": "简介不能超过 160 个字符。",
+      "urlInvalid": "请输入有效的 URL。"
+    }
+  },
+  "accountForm": {
+    "name": "姓名",
+    "namePlaceholder": "你的姓名",
+    "nameDescription": "这个名称会显示在你的个人资料和邮件中。",
+    "dob": "出生日期",
+    "dobDescription": "你的出生日期将用于计算年龄。",
+    "language": "语言",
+    "languagePlaceholder": "选择语言",
+    "languageSearchPlaceholder": "搜索语言...",
+    "languageEmpty": "未找到语言选项。",
+    "languageDescription": "该语言将用于控制台界面显示。",
+    "languages": {
+      "en": "英语",
+      "fr": "法语",
+      "de": "德语",
+      "es": "西班牙语",
+      "pt": "葡萄牙语",
+      "ru": "俄语",
+      "ja": "日语",
+      "ko": "韩语",
+      "zh": "中文"
+    },
+    "validation": {
+      "nameRequired": "请输入姓名。",
+      "nameMin": "姓名至少需要 2 个字符。",
+      "nameMax": "姓名不能超过 30 个字符。",
+      "dobRequired": "请选择出生日期。",
+      "languageRequired": "请选择一种语言。"
+    }
+  },
+  "appearanceForm": {
+    "font": "字体",
+    "fontDescription": "设置你希望在控制台中使用的字体。",
+    "theme": "主题",
+    "themeDescription": "为控制台选择一个主题。",
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "notificationsForm": {
+    "notifyMeAbout": "通知我关于...",
+    "allMessages": "所有新消息",
+    "mentions": "私信和提及",
+    "nothing": "都不要",
+    "emailNotifications": "邮件通知",
+    "communicationEmails": "沟通邮件",
+    "communicationEmailsDescription": "接收与你账户活动相关的邮件。",
+    "marketingEmails": "营销邮件",
+    "marketingEmailsDescription": "接收关于新产品、新功能等内容的邮件。",
+    "socialEmails": "社交邮件",
+    "socialEmailsDescription": "接收好友请求、关注等社交提醒邮件。",
+    "securityEmails": "安全邮件",
+    "securityEmailsDescription": "接收与你账户活动和安全相关的邮件。",
+    "mobileTitle": "为我的移动设备使用不同的设置",
+    "mobileDescriptionPrefix": "你可以在",
+    "mobileDescriptionLink": "移动端设置",
+    "mobileDescriptionSuffix": "页面中管理移动通知。",
+    "validation": {
+      "typeRequired": "请选择通知类型。"
+    }
+  },
+  "displayForm": {
+    "sidebar": "侧边栏",
+    "sidebarDescription": "选择你希望在侧边栏中显示的项目。",
+    "items": {
+      "recents": "最近使用",
+      "home": "首页",
+      "applications": "应用",
+      "desktop": "桌面",
+      "downloads": "下载",
+      "documents": "文档"
+    },
+    "validation": {
+      "itemsRequired": "至少需要选择一个项目。"
+    }
+  }
+}

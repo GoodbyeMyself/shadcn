@@ -1,0 +1,156 @@
+{
+  "page": {
+    "title": "任务",
+    "description": "这里是你本月的任务列表。"
+  },
+  "actions": {
+    "import": "导入",
+    "create": "创建",
+    "close": "关闭",
+    "saveChanges": "保存更改",
+    "delete": "删除",
+    "cancel": "取消"
+  },
+  "table": {
+    "searchPlaceholder": "按标题或 ID 筛选...",
+    "filters": {
+      "status": "状态",
+      "priority": "优先级"
+    },
+    "noResults": "暂无结果。",
+    "reset": "重置",
+    "view": "视图",
+    "toggleColumns": "切换列",
+    "rowsPerPage": "每页行数",
+    "pageOf": "第 {{current}} / {{total}} 页",
+    "goToFirstPage": "前往第一页",
+    "goToPreviousPage": "前往上一页",
+    "goToNextPage": "前往下一页",
+    "goToLastPage": "前往最后一页",
+    "goToPage": "前往第 {{page}} 页",
+    "facetedNoResults": "未找到结果。",
+    "clearFilters": "清除筛选",
+    "selectedCount": "已选择 {{count}} 项",
+    "selection": {
+      "selectAll": "全选",
+      "selectRow": "选择当前行",
+      "clearSelection": "清除选择",
+      "clearSelectionWithShortcut": "清除选择（Esc）",
+      "toolbarLabel": "已选择 {{count}} 个{{entity}}的批量操作",
+      "announcement": "已选择 {{count}} 个{{entity}}，可使用批量操作工具栏。",
+      "summary": "{{entity}}已选中"
+    },
+    "sorting": {
+      "asc": "升序",
+      "desc": "降序",
+      "hide": "隐藏"
+    },
+    "columns": {
+      "task": "任务编号",
+      "title": "标题",
+      "status": "状态",
+      "priority": "优先级"
+    }
+  },
+  "options": {
+    "labels": {
+      "bug": "缺陷",
+      "feature": "功能",
+      "documentation": "文档"
+    },
+    "statuses": {
+      "backlog": "待规划",
+      "todo": "待办",
+      "inProgress": "进行中",
+      "done": "已完成",
+      "canceled": "已取消"
+    },
+    "priorities": {
+      "low": "低",
+      "medium": "中",
+      "high": "高",
+      "critical": "紧急"
+    }
+  },
+  "rowActions": {
+    "openMenu": "打开菜单",
+    "edit": "编辑",
+    "makeCopy": "创建副本",
+    "favorite": "收藏",
+    "labels": "标签",
+    "delete": "删除"
+  },
+  "bulkActions": {
+    "entityName_one": "任务",
+    "entityName_other": "任务",
+    "updateStatus": "更新状态",
+    "updatePriority": "更新优先级",
+    "exportTasks": "导出任务",
+    "deleteSelectedTasks": "删除已选任务",
+    "loadingStatus": "正在更新状态...",
+    "loadingPriority": "正在更新优先级...",
+    "loadingExport": "正在导出任务...",
+    "statusUpdated_one": "已将 1 个任务更新为“{{status}}”。",
+    "statusUpdated_other": "已将 {{count}} 个任务更新为“{{status}}”。",
+    "priorityUpdated_one": "已将 1 个任务的优先级更新为“{{priority}}”。",
+    "priorityUpdated_other": "已将 {{count}} 个任务的优先级更新为“{{priority}}”。",
+    "exportSuccess_one": "已导出 1 个任务到 CSV。",
+    "exportSuccess_other": "已导出 {{count}} 个任务到 CSV。",
+    "error": "出错了"
+  },
+  "dialogs": {
+    "deleteTask": {
+      "title": "删除任务：{{id}}？",
+      "description": "你将删除 ID 为 {{id}} 的任务。",
+      "undo": "此操作无法撤销。",
+      "submittedTitle": "已删除以下任务："
+    },
+    "import": {
+      "title": "导入任务",
+      "description": "通过 CSV 文件快速导入任务。",
+      "file": "文件",
+      "submittedTitle": "你已导入以下文件：",
+      "validation": {
+        "fileRequired": "请上传文件。",
+        "fileFormat": "请上传 CSV 格式文件。"
+      }
+    },
+    "mutate": {
+      "createTitle": "创建任务",
+      "updateTitle": "更新任务",
+      "createDescription": "填写必要信息以新增任务。",
+      "updateDescription": "填写必要信息以更新任务。",
+      "saveHint": "完成后点击保存。",
+      "submittedTitle": "你提交了以下任务数据：",
+      "fields": {
+        "title": "标题",
+        "titlePlaceholder": "请输入标题",
+        "status": "状态",
+        "statusPlaceholder": "请选择状态",
+        "label": "标签",
+        "priority": "优先级"
+      },
+      "validation": {
+        "titleRequired": "标题不能为空。",
+        "statusRequired": "请选择状态。",
+        "labelRequired": "请选择标签。",
+        "priorityRequired": "请选择优先级。"
+      }
+    },
+    "multiDelete": {
+      "confirmWord": "删除",
+      "confirmMismatch": "请输入“{{word}}”以确认。",
+      "loading": "正在删除任务...",
+      "deleted_one": "已删除 1 个任务",
+      "deleted_other": "已删除 {{count}} 个任务",
+      "title_one": "删除 1 个任务",
+      "title_other": "删除 {{count}} 个任务",
+      "description": "确定要删除已选择的任务吗？",
+      "undo": "此操作无法撤销。",
+      "confirmPrompt": "请输入“{{word}}”进行确认：",
+      "confirmPlaceholder": "输入“{{word}}”以确认",
+      "warningTitle": "警告",
+      "warningDescription": "请谨慎操作，此操作无法回滚。"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "feedback": {
+    "contentNotModified": "Content not modified!",
+    "sessionExpired": "Session expired!",
+    "internalServerError": "Internal Server Error!"
+  },
+  "profileDropdown": {
+    "profile": "Profile",
+    "billing": "Billing",
+    "settings": "Settings",
+    "newTeam": "New Team",
+    "signOut": "Sign out"
+  },
+  "language": {
+    "label": "Language",
+    "openMenu": "Open language menu",
+    "english": "English",
+    "chinese": "Chinese"
+  },
+  "configDrawer": {
+    "openMenu": "Open display settings",
+    "title": "Display Settings",
+    "description": "Adjust the appearance and layout to suit your preferences.",
+    "reset": "Reset",
+    "resetAllAria": "Reset all settings to default values",
+    "selectOption": "Select {{option}}",
+    "previewOption": "{{option}} option preview",
+    "theme": {
+      "title": "Theme",
+      "description": "Choose between system preference, light mode, or dark mode",
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "sidebar": {
+      "title": "Sidebar",
+      "description": "Choose between inset, floating, or standard sidebar layout",
+      "inset": "Inset",
+      "floating": "Floating",
+      "sidebar": "Sidebar"
+    },
+    "layout": {
+      "title": "Layout",
+      "description": "Choose between default expanded, compact icon-only, or full layout mode",
+      "default": "Default",
+      "compact": "Compact",
+      "full": "Full layout"
+    },
+    "direction": {
+      "title": "Direction",
+      "description": "Choose between left-to-right or right-to-left site direction",
+      "ltr": "Left to Right",
+      "rtl": "Right to Left"
+    }
+  },
+  "navUser": {
+    "upgradeToPro": "显示",
+    "account": "Account",
+    "billing": "Billing",
+    "notifications": "Notifications",
+    "signOut": "Sign out"
+  },
+  "teamSwitcher": {
+    "label": "Teams",
+    "addTeam": "Add team",
+    "shortcut": "Ctrl+{{index}}"
+  },
+  "search": {
+    "placeholder": "Search",
+    "shortcut": "Ctrl"
+  },
+  "commandMenu": {
+    "placeholder": "Type a command or search...",
+    "noResults": "No results found."
+  },
+  "signOutDialog": {
+    "title": "Sign out",
+    "description": "Are you sure you want to sign out? You will need to sign in again to access your account.",
+    "confirm": "Sign out",
+    "cancel": "Cancel"
+  },
+  "learnMore": {
+    "srOnly": "Learn more"
+  },
+  "themeSwitch": {
+    "toggle": "Toggle theme"
+  },
+  "sidebar": {
+    "toggle": "Toggle Sidebar",
+    "mobileTitle": "Sidebar",
+    "mobileDescription": "Displays the mobile sidebar."
+  },
+  "actions": {
+    "close": "Close"
+  },
+  "comingSoon": {
+    "title": "Coming Soon!",
+    "descriptionLine1": "This page has not been created yet.",
+    "descriptionLine2": "Stay tuned though!"
+  },
+  "appTitle": {
+    "tagline": "Vite + ShadcnUI"
+  },
+  "command": {
+    "title": "Command Palette",
+    "description": "Search for a command to run..."
+  },
+  "select": {
+    "placeholder": "Select",
+    "loading": "Loading..."
+  },
+  "dataTable": {
+    "filterPlaceholder": "Filter...",
+    "reset": "Reset",
+    "selectedCount": "{{count}} selected",
+    "noResults": "No results found.",
+    "clearFilters": "Clear filters",
+    "view": "View",
+    "toggleColumns": "Toggle columns",
+    "sortAsc": "Asc",
+    "sortDesc": "Desc",
+    "hide": "Hide",
+    "rowsPerPage": "Rows per page",
+    "pageOf": "Page {{current}} of {{total}}",
+    "goToFirstPage": "Go to first page",
+    "goToPreviousPage": "Go to previous page",
+    "goToNextPage": "Go to next page",
+    "goToLastPage": "Go to last page",
+    "goToPage": "Go to page {{page}}",
+    "bulkActionsToolbar": "Bulk actions for {{count}} selected {{entity}}",
+    "bulkActionsAnnouncement": "{{count}} {{entity}} selected. Bulk actions toolbar is available.",
+    "clearSelection": "Clear selection",
+    "clearSelectionWithShortcut": "Clear selection (Escape)",
+    "summary": "{{entity}} selected"
+  }
+}
